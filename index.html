@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumit Kumar | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .hero {
+      height: 100vh;
+      background: linear-gradient(to right, #007bff, #6f42c1);
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h1 { font-size: 3rem; font-weight: bold; }
+    .hero p { font-size: 1.2rem; }
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-weight: bold;
+    }
+    footer {
+      background: #680909;
+      color: #bbb;
+      padding: 1rem 0;
+    }
+    .skills-bg{
+          background: linear-gradient(135deg, #e0f7fa, #fffde7);
+    }
+     .call-btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #007bff, #6f42c1);
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .call-btn:hover {
+      background: linear-gradient(135deg, #0056b3, #4a148c);
+      transform: scale(1.05);
+    }
+    .navbar-bg{
+        
+   background: linear-gradient(90deg, #007bff, #ff0d0d);
+}
+
+        
+    
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-bg fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-white fs-2" href="#">CodeWithSumit</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="/resume/Sumit_Resume.pdf" target="_blank">Resume</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    
+    <div class="container py-5">
+    <div class="row g-4 justify-content-center">
+        <!-- Box 1 -->
+        <div class="col-12 col-md-6">
+        <div class="p-5 bg-primary text-white text-center rounded shadow">
+            <h1>Hi, I'm Sumit 👋</h1>
+            <p>Full Stack Developer | Problem Solver | Tech Enthusiast</p>
+           <div class="mt-3">
+            <a href="#projects" class="btn btn-light btn-lg me-2">View Projects</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+            
+        </div>
+        </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="col-12 col-md-6">
+        <div class="  text-white text-center">
+            <div class="">
+                <img class=" rounded shadow" src="img/su-2.jpg" alt="" width="210px" height="250px">
+                <p class="center fw-bold">Sumit Kumar</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+  </section>
+
+  <!-- About -->
+  <section class="container py-5" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p class="text-center">
+    "Motivated CSE student (B.Tech, 2026) with expertise in Java, JavaScript,PHP, Node.js, React, and databases (MySQL/MongoDB). Experienced in product development, API integration, and AI/ML projects, seeking opportunities in software development and full-stack engineering to apply my skills and grow into impactfull roles."
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="py-5 skills-bg" id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="row g-4">
+        <div class="col-md-3"><div class="card p-3 text-center shadow">Java</div></div>
+        <div class="col-md-3"><div class="card p-3 text-center shadow">JavaScript</div></div>
+        <div class="col-md-3"><div class="card p-3 text-center shadow">React</div></div>
+        <div class="col-md-3"><div class="card p-3 text-center shadow">Node.js</div></div>
+        <div class="col-md-3"><div class="card p-3 text-center shadow">Python</div></div>
+        <div class="col-md-3"><div class="card p-3 text-center shadow">PHP</div></div>
+        <div class="col-md-3"><div class="card p-3 text-center shadow">MySQL</div></div>
+        <div class="col-md-3"><div class="card p-3 text-center shadow">MongoDB</div></div>
+        <div class="col-md-3"><div class="card p-3 text-center shadow">HTML</div></div>
+        <div class="col-md-3"><div class="card p-3 text-center shadow">CSS</div></div>
+     
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="container py-5" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">NotesHub:AI Powered Online Notes sharing System</h5>
+            <p class="card-text">AI-based project using Python & ML models for early detection.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">Student Record Management System</h5>
+            <p class="card-text">Web app using JavaScript & PHP.</p>
+            <a href="https://github.com/Sumitkumar7198/Student-Record-Management-System.git" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="col-md-6">
+        <div class="card shadow h-100">
+          <div class="card-body">
+            <h5 class="card-title">Online Shopping Portal</h5>
+            <p class="card-text">Web app using JavaScript,Bootstrap,HTML,CSS & PHP.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-5 bg-dark text-white" id="contact">
+    <div class="container text-center">
+      <h2 class="section-title text-white">Get in Touch</h2>
+      <p>Let’s build something amazing together!</p>
+      <a href="mailto:sskk721558@gmail.com" class="btn btn-light btn-lg">📩Say Hello</a>
+      <a href="tel:+917033721558" class="call-btn">📞 Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <p>© 2025 Sumit Kumar | Built with ❤️ using HTML, CSS & Bootstrap</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
